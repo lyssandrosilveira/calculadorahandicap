@@ -28,5 +28,8 @@ def main():
         odd_handicap = calcular_odd_handicap(probabilidade_casa, probabilidade_visitante, probabilidade_empate)
         st.write("Odd Justa HA -0.25:", odd_handicap)
 
+# Exibe o crédito do desenvolvedor
+    st.write("Desenvolvido por Lyssandro Silveira")
+
 if __name__ == "__main__":
     main()
