@@ -17,8 +17,8 @@ def calcular_odd_handicap(probabilidade_casa, probabilidade_visitante, probabili
     return round(odd_linha_025, 2)
 
 def main():
-    st.title("Cálculo de Odd para Handicap Asiático -0.25")
-    st.write("Digite as probabilidades dos times para calcular a odd do handicap asiático -0.25")
+    st.title("Odd Justa HA -0.25")
+    st.write("Digite as probabilidades dos times")
 
     probabilidade_casa = st.number_input("Probabilidade de vitória do time da casa", min_value=0.0, max_value=1.0, step=0.01)
     probabilidade_visitante = st.number_input("Probabilidade de vitória do time visitante", min_value=0.0, max_value=1.0, step=0.01)
